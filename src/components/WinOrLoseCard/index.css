@@ -1,0 +1,69 @@
+.winLose-bg-cont {
+  background-color: #b2b1ffa1;
+  border: 2px solid #ffffff69;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+}
+.win-lose-img {
+  width: 100px;
+}
+.w-h1 {
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+}
+.w-p {
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  margin: 0;
+}
+.w-h2 {
+  color: #6a59ff;
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+}
+.w-btn {
+  background-color: #ffce27;
+  border: 0px;
+  color: #3d3d3d;
+  outline: none;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.w-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .winLose-bg-cont {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .win-lose-img {
+    width: 300px;
+  }
+  .w-cont {
+    order: -1;
+  }
+  .w-h1 {
+    font-size: 50px;
+  }
+  .w-h2 {
+    font-size: 50px;
+  }
+  .w-p {
+    font-size: 35px;
+  }
+}

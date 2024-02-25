@@ -1,0 +1,31 @@
+.emoji-list-cont {
+  background-color: #b2b1ff;
+  border: 2px solid #ffffff69;
+  width: 85px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+.emoji-img {
+  width: 45px;
+}
+.emoji-list-cont button {
+  border: 0px;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .emoji-img {
+    width: 80px;
+  }
+  .emoji-list-cont {
+    width: 150px;
+    height: 150px;
+  }
+}
